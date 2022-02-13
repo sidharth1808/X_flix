@@ -1,0 +1,55 @@
+.tool-bar{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color:#202020;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.genre-btn{
+    color: rgba(255, 255, 255, 0.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.content-btn{
+    color: rgba(255, 255, 255, 0.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+.genre-btn-active{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;    
+}
+.content-btn-active{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;    
+}
+
+.genre-btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.genre-btn-active:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+

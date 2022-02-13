@@ -1,0 +1,33 @@
+.card {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+    
+}
+.video-title{
+   color: #FFFFFF;
+   align-items: center;
+   text-decoration: none;
+   
+   
+}
+.video-subtitle{
+   color: #D1D5DA;
+   align-items: center;
+   margin-top: 0;
+   margin-bottom: 0;
+   text-align: left;
+   text-decoration: none;
+   
+}
+/* .card-texts{
+   display: flex;
+   justify-content: flex-end;
+} */
+.card:hover{
+   cursor: pointer;
+   opacity: 0.6;
+   transition: all 0.2s linear;
+}

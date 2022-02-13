@@ -1,0 +1,91 @@
+.video-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.iframe-parent{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.iframe-parent iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+@media (max-width:769 px){
+    .iframe-main{
+        width: unset;
+        min-height: unset;
+    }
+}
+.playing-title{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    line-height: 28px;
+    margin:5px 0px;
+
+}
+.tag{
+    font-style: normal;
+    color: #c2c2c2;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    margin-right: 1rem;
+    font-family: "Roboto";
+}
+.line{
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+.dot{
+    background-color: #fff;
+    width:6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.vote-container{
+    display: inline-flex;
+    
+    
+
+}
+.vote-pill{
+    color: #fff;
+    background-color: #2b2b2b;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 16px;
+    padding: 5px 12px;
+    margin-right: 15px;
+    mix-blend-mode: normal;
+    
+    
+    
+
+}
+.vote-pill:hover{
+    background-color: #474747;
+}
+
+.thumb-icon{
+    color: #797979;
+
+}
